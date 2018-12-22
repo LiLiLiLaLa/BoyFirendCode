@@ -12,6 +12,7 @@ public interface FruitFactory {
 	public Fruit getBanana();
 }
 
+
 //苹果抽象类
 public abstract class Apple implements Fruit {
 	@Override
@@ -23,6 +24,7 @@ public abstract class Banana implements Fruit {
 	@Override
 	public abstract void get();
 }
+
 
 //北方苹果具体类
 public class NorthApple extends Apple {
