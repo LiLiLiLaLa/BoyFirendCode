@@ -12,7 +12,6 @@ public interface FruitFactory {
 	public Fruit getBanana();
 }
 
-
 //苹果抽象类
 public abstract class Apple implements Fruit {
 	@Override
